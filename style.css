@@ -24,10 +24,39 @@
 .pure-menu li a:hover{
     background: #040;
 }
+#menu .pure-menu-selected{
+    background: #393;
+}
 #menu .pure-menu-open {
     background: transparent;
     border: 0;
 }
 dt {
     font-weight: bold;
+}
+.header {
+ min-height: 80px;
+ margin: 0;
+ color: #333;
+ padding: 1em;
+ text-align: center;
+ border-bottom: 1px solid #eee;
+ background: #fff;
+}
+.header h1 {
+    margin: 0.2em 0;
+    font-size: 3em;
+    font-weight: 300;
+}
+.header h2 {
+    font-weight: 300;
+    margin: 0;
+    color: #ccc;
+}
+.content {
+    margin: 10px auto;
+}
+.content p {
+    line-height: 1.6em;
+    font-size: 1.125em;
 }
