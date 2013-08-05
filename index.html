@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html ng-app="portfolio">
+<head>
+	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.2.1/pure-min.css">
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+	<script src="app.js"></script>
+	<script src="controllers.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<title>Damian Reichel</title>
+</head>
+<body>
+	<div class="pure-u" id="menu">
+		<div class="pure-menu pure-menu-open">
+			<ul>
+				<li><a class="pure-menu-heading" href="/">Damian Reichel</a></li>
+				<li><a href="/#/resume">Resume</a></li>
+				<li><a href="/#/projects">Projects</a></li>
+				<li><a href="https://github.com/kingdamian42/">github</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="layout" ng-view>
+	</div>
+</body>
+</html>
